@@ -1,0 +1,26 @@
+@mixin square($size) {
+   $calculate: 32px * $size;
+   width: $calculate;
+   height: $calculate;
+}
+
+.TodoTemplate {
+   height: 400px;
+   width: 500px;
+   display: flex;
+   flex-direction: column;
+   // align-items: center;
+   // justify-content: center;
+   background-color: white;
+   border-radius: 10px;
+   .app-title {
+      width: 100%;
+      height: 50px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: blue;
+      color:white;
+   }
+}
