@@ -1,10 +1,11 @@
 import React from 'react';
 import TodoItem from './TodoItem';
+import './TodoItemList.scss';
 
 const TodoItemList = props => {
    const {todos, onRemove, onToggle} = props;
    return(
-      <div>
+      <div className="TodoItemList">
          {todos.map((todo)=>(
             <TodoItem 
                todo={todo} 

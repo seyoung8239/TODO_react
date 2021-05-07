@@ -1,26 +1,23 @@
-@mixin square($size) {
-   $calculate: 32px * $size;
-   width: $calculate;
-   height: $calculate;
-}
-
 .TodoTemplate {
-   height: 400px;
-   width: 500px;
-   display: flex;
-   flex-direction: column;
-   // align-items: center;
-   // justify-content: center;
-   background-color: white;
+   width: 512px;
+   //width가 부여된 상황에서 중앙정렬
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 6em;
    border-radius: 10px;
+   overflow: hidden;
+   
    .app-title {
-      width: 100%;
-      height: 50px;
-      overflow: hidden;
+      background: #22b8cf;
+      color: white;
+      height:4rem;
+      font-size: 1.5rem;
       display: flex;
-      justify-content: center;
       align-items: center;
-      background-color: blue;
-      color:white;
+      justify-content: center;
+   }
+
+   .content {
+      background: white;
    }
 }

@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import {AiOutlinePlus} from 'react-icons/ai';
+import './TodoInsert.scss';
 
 const TodoInsert = ({onInsert}) => {
    const [value, setValue] = useState('');
