@@ -1,3 +1,2 @@
-Todo
-
-my First React project
+Todolist using React
+with optimization
